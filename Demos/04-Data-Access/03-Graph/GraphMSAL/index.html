@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Using Graph</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      type="text/javascript"
+      src="/node_modules/msal/dist/msal.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/node_modules/jquery/dist/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/node_modules/moment/min/moment.min.js"
+    ></script>
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Using Microsoft Graph</h1>
+      <a onclick="doRead()">Read Graph</a>
+      <a onclick="createCalEvt()">Create Event</a>
+      <div id="pResult">
+        <h2>OneDrive documents</h2>
+        <ul id="OneDrive"></ul>
+        <h2>Events</h2>
+        <ul id="Events"></ul>
+        <h2>Contacts</h2>
+        <ul id="Contacts"></ul>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "using-graph",
+  "description": "ASP.NET Core MVC project with npm and webpack front-end configuration.",
+  "license": "MIT",
+  "version": "0.2.0",
+  "dependencies": {
+    "adal-angular": "^1.0.18",
+    "jquery": "^3.4.1",
+    "moment": "^2.29.1",
+    "msal": "^1.4.6"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  },
+  "scripts": {}
+}
