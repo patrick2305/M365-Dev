@@ -19,8 +19,8 @@ export async function authClient() {
 
   const config = {
     auth: {
-      clientId: "024bf89c-83e1-45b5-8797-f013cf920cc5",
-      authority: "https://login.microsoftonline.com/common/",
+      clientId: "c1451a6a-8295-4569-9516-31bab5f4b4fe",
+      authority: "https://login.microsoftonline.com/5c5f2a84-d003-4cf6-8144-bd0500e247ae/",
       redirectUri: "http://localhost:8080",
     },
   };

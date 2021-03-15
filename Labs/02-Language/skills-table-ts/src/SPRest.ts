@@ -1,5 +1,3 @@
-import { Skill } from "./skill";
-
 export class SPRest {
   constructor(private url) {}
 
