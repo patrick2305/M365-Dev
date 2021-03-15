@@ -21,9 +21,6 @@ choco install ngrok -y
 # Refresh Path Env for npm 
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
 
-# Install httprepl
-dotnet tool install -g Microsoft.dotnet-httprepl
-
 # Intall VS Code Extensions
 code --install-extension ms-dotnettools.csharp
 code --install-extension msjsdiag.debugger-for-chrome
